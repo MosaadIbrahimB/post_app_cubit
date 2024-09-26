@@ -1,0 +1,14 @@
+
+
+{
+  "todo":"To Do List",
+  "setting":"Settings",
+  "language":"Language",
+ "english":"English",
+  "arabic":"Arabic",
+  "mode":"Mode",
+  "light":"Light",
+  "dark":"Dark",
+  "save":"Save",
+  "cancel":"Cancel"
+}
