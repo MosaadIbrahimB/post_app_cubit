@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
-import 'package:task/core/utils/app_manager/app_text.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 class LanguageCubit extends Cubit<String>{
-  LanguageCubit():super(AppText.english);
+  LanguageCubit():super("english".tr());
 
 
 

@@ -2,13 +2,15 @@
 
 {
   "todo":"To Do List",
-  "setting":"Settings",
+  "settings":"Settings",
   "language":"Language",
+  "titleLanguage":"English",
  "english":"English",
   "arabic":"Arabic",
   "mode":"Mode",
   "light":"Light",
   "dark":"Dark",
   "save":"Save",
-  "cancel":"Cancel"
+  "cancel":"Cancel",
+  "selectLanguage":"Select Language"
 }

@@ -66,7 +66,7 @@ class TaskWidget extends StatelessWidget {
                         .updateTask(list[index].id, list[index]);
                   },
                   child: Container(
-                    margin: const EdgeInsets.only(right: 15),
+                    margin: const EdgeInsets.only(right: 15,left: 8).r,
                     width: 68.w,
                     height: 33.h,
                     child: list[index].status

@@ -1,12 +1,14 @@
 {
   "todo":"قائمة المهام",
-  "setting":"إعدادات",
+  "settings":"إعدادات",
   "language":"اللغة",
+  "titleLanguage":"العربية",
   "english":"الإنجليزية",
   "arabic":"العربية",
   "mode":"المظهر",
   "light":"فاتح",
   "dark":"داكن",
   "save":"حفظ",
-  "cancel":"إلغاء"
+  "cancel":"إلغاء",
+  "selectLanguage":"أختر اللغة"
 }

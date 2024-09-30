@@ -1,9 +1,10 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:task/core/utils/app_manager/app_text.dart';
-import 'package:task/feature/root/presentation/screen/layout_screen.dart';
 import 'package:task/feature/setting/control/cubit/language_cubit.dart';
+
 import '../../../../core/utils/app_manager/app_color.dart';
 
 class LangWidget extends StatelessWidget {
@@ -15,7 +16,7 @@ class LangWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          AppText.language,
+          "language".tr(),
           style: Theme.of(context).textTheme.titleMedium,
         ),
         SizedBox(height: 15.h),
@@ -29,16 +30,12 @@ class LangWidget extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              BlocBuilder<LanguageCubit, String>(
-                builder: (context, state) {
-                  return Text(
-                    state,
-                    style: Theme.of(context)
-                        .textTheme
-                        .titleMedium!
-                        .copyWith(color: AppColor.blue),
-                  );
-                },
+              Text(
+                "titleLanguage".tr(),
+                style: Theme.of(context)
+                    .textTheme
+                    .titleMedium!
+                    .copyWith(color: AppColor.blue),
               ),
               const Icon(
                 Icons.keyboard_arrow_down,

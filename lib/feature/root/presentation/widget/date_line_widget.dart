@@ -23,7 +23,8 @@ class DateLineWidget extends StatelessWidget {
               child: DatePicker(
                 controller: DateTimeCubit.controller,
                 height: 100,
-                DateTime.now(),
+                DateTime.now().subtract(const Duration(days: 6)),
+                
                 initialSelectedDate: state,
                 selectionColor: AppColor.white,
                 selectedTextColor: AppColor.blue,

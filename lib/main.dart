@@ -9,8 +9,8 @@ import 'my_app.dart';
 
 void main() async {
   setUp();
-  await dotenv.load(fileName: ".env");
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: "sec.env");
   await EasyLocalization.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,

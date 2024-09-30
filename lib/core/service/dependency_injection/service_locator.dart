@@ -5,6 +5,7 @@ import 'package:task/feature/task/data/repositorie/task_repositry.dart';
 
 import '../../../feature/root/control/root_cubit.dart';
 import '../../../feature/setting/control/cubit/language_cubit.dart';
+import '../../../feature/setting/control/cubit/radio_select_cubit.dart';
 import '../../../feature/task/data/repositorie/repository_impl_firebase.dart';
 
 final getIt = GetIt.instance;
@@ -16,4 +17,5 @@ void setUp(){
   getIt.registerLazySingleton<RootCubit>(() => RootCubit(),);
   getIt.registerLazySingleton<TaskModelCubit>(() => TaskModelCubit());
   getIt.registerLazySingleton<LanguageCubit>(() => LanguageCubit());
+  getIt.registerLazySingleton<RadioSelectCubit>(() => RadioSelectCubit());
 }

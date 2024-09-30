@@ -8,6 +8,7 @@ import 'core/router/router.dart';
 import 'core/utils/app_manager/theme.dart';
 import 'feature/root/control/root_cubit.dart';
 import 'feature/setting/control/cubit/language_cubit.dart';
+import 'feature/setting/control/cubit/radio_select_cubit.dart';
 import 'feature/task/control/date_time_cubit.dart';
 import 'feature/task/control/task_cubit.dart';
 
@@ -53,5 +54,7 @@ var cubitList=[
       create: (context) => GetIt.I<TaskModelCubit>()),
   BlocProvider<LanguageCubit>(
       create: (context) => GetIt.I<LanguageCubit>()),
+  BlocProvider<RadioSelectCubit>(
+      create: (context) => GetIt.I<RadioSelectCubit>()),
 
 ];
