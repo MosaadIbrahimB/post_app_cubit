@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/utils/app_manager/app_color.dart';
@@ -12,9 +13,9 @@ class DoneWidget extends StatelessWidget {
     return Container(
       alignment: Alignment.center,
       margin: const EdgeInsets.only(right: 10),
-      child: const Text(
-        "Done",
-        style: TextStyle(
+      child:  Text(
+        'done'.tr(),
+        style:const TextStyle(
             color: AppColor.green, fontSize: 24, fontWeight: FontWeight.bold),
       ),
     );

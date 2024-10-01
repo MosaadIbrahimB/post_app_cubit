@@ -8,7 +8,7 @@ import '../../feature/root/presentation/screen/splash_screen.dart';
 
 class AppRouter {
   static GoRouter router = GoRouter(
-    initialLocation:StringRouter.layoutScreen ,
+    initialLocation:StringRouter.splashScreen ,
     routes: <RouteBase>[
       GoRoute(
         path: StringRouter.splashScreen,
