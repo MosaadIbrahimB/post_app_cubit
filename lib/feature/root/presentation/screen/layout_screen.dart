@@ -17,7 +17,6 @@ class _LayoutScreenState extends State<LayoutScreen> {
   int currentIndex = 0;
 
   DateTime selectedDate = DateTime.now();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
